@@ -28,3 +28,9 @@ A[Hard edge] -->B(Round edge)
     C -->|One| D[Result one]
     C -->|Two| E[Result two]
 ​```
+
+mermaid
+graph TD;
+  A-->B;
+  A-->C;
+  B-->D;
