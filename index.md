@@ -1,33 +1,33 @@
 # 结构描述
-+ style-base.css
+## style-base.css
 > 总文件
-++ ## base
+### base
 > 一些较常用的样式
-++ ## 布局类
-++ ### float
+### 布局类
+#### float
 > 浮动
-++ ### align
+#### align
 > 对齐方式
-++ ### flex
+#### flex
 
-++ ellipsis
+### ellipsis
 > 裁剪
-++ size 大小类
-+++ margin-px
+### size 大小类
+#### margin-px
 > margin，以px为单位
-+++ padding-px
+####  padding-px
 > padding，以px为单位
-+++ position-px
+####  position-px
 > 定位，以px为单位
-+++ position-percent
+####  position-percent
 > 定位，以百分比为单位
-+++ fontSize-px
+####  fontSize-px
 > 字体大小，以px为单位
-+++ height-px
+####  height-px
 > 高度，以px为单位
-+++ width-px
+####  width-px
 > 宽度
-+++ width-percent
+####  width-percent
 
-++ text
-++ other
+### text
+### other
