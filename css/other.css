@@ -1,0 +1,12 @@
+.borT{
+    border-top: 1px solid #f00;
+}
+.borR{
+    border-right: 1px solid #f00;
+}
+.borB{
+    border-bottom: 1px solid #f00;
+}
+.borL{
+    border-left: 1px solid #f00;
+}
