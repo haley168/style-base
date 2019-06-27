@@ -13,7 +13,7 @@
 ### ellipsis
 > 裁剪
 ### size 大小类  
-#### margin-px   > margin，以px为单位  
+#### margin-px   > margin，以px为单位1  
 
 ####  padding-px   > padding，以px为单位  
 
