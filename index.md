@@ -1,16 +1,10 @@
 # 结构描述
-## style-base.css  
-总文件  
-### base  
-一些较常用的样式  
-### > 布局类  
-#### float  
-浮动  
-#### align  
-对齐方式  
-#### flex  
-### ellipsis
-裁剪  
+## style-base.css  总文件  
+### base.css  --> 一些较常用的样式   
+++ float  浮动  
+++ align  对齐方式  
+#### flex.css  
+### ellipsis  裁剪  
 ### > 大小类  
 ####  + margin-px   --> margin，以px为单位3
 ####  + padding-px   --> padding，以px为单位  

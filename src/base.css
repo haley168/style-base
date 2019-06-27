@@ -1,3 +1,4 @@
+
 .fl{
     float:left;
 }
@@ -7,5 +8,18 @@
 
 .fn{
     float:none;
+}
+
+.tl{
+    text-align: left;
+}
+.tc{
+    text-align: center;
+}
+.tr{
+    text-align: right;
+}
+.tj{
+    text-align: justify;
 }
 
