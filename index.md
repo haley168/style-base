@@ -13,12 +13,12 @@
 ### ellipsis
 > 裁剪
 ### size 大小类  
-#### margin-px  
-> margin，以px为单位  
-####  padding-px  
-> padding，以px为单位  
-####  position-px  
-> 定位，以px为单位  
+#### margin-px   > margin，以px为单位  
+
+####  padding-px   > padding，以px为单位  
+
+####  position-px   > 定位，以px为单位  
+
 ####  position-percent  
 > 定位，以百分比为单位  
 ####  fontSize-px  
