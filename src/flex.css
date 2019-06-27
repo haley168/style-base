@@ -1,0 +1,115 @@
+/**
+* 原来的中间减号统一改为下划线 如flex--box  
+* Time ：2019-6-27 15:52:05
+*/
+.flex__box {
+    display: flex;
+}
+
+.flex__row {
+    flex-direction: row;
+}
+
+.flex__column {
+    flex-direction: column;
+}
+
+/* 水平方向 */
+
+.flex__box__left {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.flex__left {
+    justify-content: flex-start;
+}
+
+.flex__box__center {
+    display: flex;
+    justify-content: center;
+}
+
+.flex__center {
+    justify-content: center;
+}
+
+.flex__box__right {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.flex__right {
+    justify-content: flex-end;
+}
+
+/* 多个横向一行均布 */
+
+.flex__box__leftRight,
+.flex__box__justify {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* 多行显示 */
+
+.flex__box__moreLine {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* 垂直方向 */
+
+.flex__box__top {
+    display: flex;
+    align-items: flex-start;
+}
+
+.flex__top {
+    align-items: flex-start;
+}
+
+.flex__box__middle {
+    display: flex;
+    align-items: center;
+}
+
+.flex__middle {
+    align-items: center;
+}
+
+.flex__box__bottom {
+    display: flex;
+    align-items: flex-end;
+}
+
+.flex__bottom {
+    align-items: flex-end;
+}
+
+/* 垂直方向 顶部和底部对齐 */
+.flex__box__topBottom {
+    display: flex;
+    align-content: space-between;
+}
+
+.flex__topBottom {
+    align-content: space-between;
+}
+
+/* 两个方向居中 */
+.flex__box__middleCenter,
+.flex__box__centerMiddle,
+.flex__box__mc,
+.flex__box__cm {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.flex__middleCenter,
+.flex__centerMiddle {
+    align-items: center;
+    justify-content: center;
+}
+
