@@ -3,7 +3,7 @@ var margin={
     max:100,
     step:0.5,
     str1:'.m',
-    str2:'-per{',
+    str2:'p{',
     str3:'%}',
     str4:':',
     name: 'margin'

@@ -1,8 +1,8 @@
 @import "base.css";
 @import "width-px.css";
-@import "width-per.css";
+@import "width-percent.css";
 @import "margin-px.css";
-@import "margin-per.css"; /* 百分比单位 */
+@import "margin-percent.css"; /* 百分比单位 */
 @import "padding-px.css";
 @import "other.css";
 @import "flex.css";
