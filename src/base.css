@@ -1,36 +1,54 @@
-
-*{
+* {
     box-sizing: border-box;
 }
-.fl{
-    float:left;
-}
-.fr{
-    float:right;
+
+.fl {
+    float: left;
 }
 
-.fn{
-    float:none;
+.fr {
+    float: right;
 }
 
-.tl{
+.fn {
+    float: none;
+}
+
+.tl {
     text-align: left;
 }
-.tc{
+
+.tc {
     text-align: center;
 }
-.tr{
+
+.tr {
     text-align: right;
 }
-.tj{
+
+.tj {
     text-align: justify;
 }
 
-.clear{
+.clear {
     clear: both;
 }
 
-.ovh{
+.ovh {
     overflow: hidden;
 }
+/* 回车换行 */
+.breakAll {
+    word-break: break-all;
+}
 
+.breakAlli {
+    word-break: break-all !important;
+}
+.breakWord,.wordBreak {
+    word-break: break-word;
+}
+
+.breakWordi,.wordBreaki {
+    word-break: break-word !important;
+}
