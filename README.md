@@ -13,10 +13,14 @@
 ## 样式库组成
 ### style-base.css  总文件  
 ### base.css  --> 一些较常用的样式   
+1. 全局设置 box-sizing: border-box;
 1. 浮动  float  
+1. 清除浮动 clearfix
 1. 对齐方式   align  
-1. 溢出处理 overflow
+1. 溢出处理 overflow ovh ovhi scroll-x scroll-y
+1. 超长剪裁 text-over 
 1. 回车换行 breakAll breakAlli breakWord wordBreak breakWordi wordBreaki
+
 
 #### flex.css  
 ### ellipsis  裁剪  

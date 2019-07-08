@@ -1,7 +1,8 @@
+/* 全局设置 */
 * {
     box-sizing: border-box;
 }
-
+/* 浮动 */
 .fl {
     float: left;
 }
@@ -14,6 +15,19 @@
     float: none;
 }
 
+/* 清除浮动 */
+.clearfix {
+    zoom:1;
+    }
+  .clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+  }
+
+/* 对齐方式 */
 .tl {
     text-align: left;
 }
@@ -30,13 +44,40 @@
     text-align: justify;
 }
 
-.clear {
-    clear: both;
-}
-
+/* 溢出处理 */
 .ovh {
     overflow: hidden;
 }
+
+.ovhi {
+    overflow: hidden !important;
+}
+
+.scroll-x {
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+
+.scroll-y {
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+/*　超过长度裁切　需要与宽度配合，否则失效*/
+.text-overflow, .textOverflow,.text-over {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    display: inline-block;
+  }
+  .text-overflow2, .textOverflow2, .text-over2 {
+      text-overflow: ellipsis;
+      white-space:overflow;
+      overflow: hidden;
+      display:-webkit-box;
+      -webkit-line-clamp:2;
+      -webkit-box-orient:vertical;
+  }
+
 /* 回车换行 */
 .breakAll {
     word-break: break-all;
@@ -45,10 +86,14 @@
 .breakAlli {
     word-break: break-all !important;
 }
-.breakWord,.wordBreak {
+
+.breakWord,
+.wordBreak {
     word-break: break-word;
 }
 
-.breakWordi,.wordBreaki {
+.breakWordi,
+.wordBreaki {
     word-break: break-word !important;
 }
+
