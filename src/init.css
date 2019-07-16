@@ -1,0 +1,5 @@
+/* 清除a标签hover时的下划线以及蓝色颜色 */
+a:link,a:visited,a:hover,a:active{
+    color: initial;
+    text-decoration: none;
+  }

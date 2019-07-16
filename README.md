@@ -12,7 +12,8 @@
 1. 后缀为i的表示带important后缀的强制样式
 ## 样式库组成
 ### style-base.css  总文件  
-### base.css  --> 一些较常用的样式   
+### base.css  --> 一些较常用的样式 
+### init.css  --> 重置一些样式
 1. 全局设置 box-sizing: border-box;
 1. 浮动  float  居于左侧 fl表示float:left; 居于右侧 fr表示 float:right;
 
