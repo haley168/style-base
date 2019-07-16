@@ -8,7 +8,10 @@
 1. -px 表示已px为单位
 1. -percent 表示以百分比为单位
 1. _5 表示负值
-1. 大部分都是以原来样式单词的首字母+数值作为class的名称,比如w5表示width:5px,h5表示height:5px;m5表示margin:5px;ml5表示margin-left:5px;当然可能会存在某两个词首字母一样，目前还没遇到，如果遇到会采用将不常用的那个多加一个字母来处理
+1. 大部分都是以原来样式单词的首字母+数值作为class的名称,
+ + 比如w5表示width:5px,h5表示height:5px;
+ + m5表示margin:5px;ml5表示margin-left:5px;
+ + 当然可能会存在某两个词首字母一样，目前还没遇到，如果遇到会采用将不常用的那个多加一个字母来处理
 1. 后缀为i的表示带important后缀的强制样式
 ## 样式库组成
 ### style-base.css  总文件  
