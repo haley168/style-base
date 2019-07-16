@@ -14,9 +14,10 @@
 ### style-base.css  总文件  
 ### base.css  --> 一些较常用的样式   
 1. 全局设置 box-sizing: border-box;
-1. 浮动  float  
+1. 浮动  float  居于左侧 fl表示float:left; 居于右侧 fr表示 float:right;
+
 1. 清除浮动 clearfix
-1. 对齐方式   align  
+1. 对齐方式   align   居左 tl 表示text-align:left; 居中 表示text-align:center;居右 表示text-align:right;两端对齐 表示text-align:justify;
 1. 溢出处理 overflow ovh ovhi scroll-x scroll-y
 1. 超长剪裁 text-over 
 1. 回车换行 breakAll breakAlli breakWord wordBreak breakWordi wordBreaki
@@ -26,6 +27,8 @@
 ### ellipsis  裁剪  
 ### > 大小类  
 ####  margin-px   --> margin，以px为单位3
+1. 常规举例 边距优选margin  上边距 mt10表示margin-top:10px; 右边距 mr10表示margin-right:10px; 下边距 mb10表示margin-bottom:10px; 左边距 ml10表示margin-left:10px;
+
 ####  padding-px   --> padding，以px为单位  
 ####  position-px   --> 定位，以px为单位  
 ####  position-percent  -->定位，以百分比为单位 
